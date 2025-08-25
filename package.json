@@ -1,0 +1,12 @@
+{
+  "name": "learn-backend",
+  "version": "1.0.0",
+  "description": "A backend practice project",
+  "license": "ISC",
+  "author": "Jeet Singh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

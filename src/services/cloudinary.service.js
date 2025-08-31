@@ -7,7 +7,6 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
-console.log("cloudinary.config() is returning -> ", cloudinary.config()); //For debugging
 
 export const uploadOnCloudinary = async (localFilePath) => {
   try {

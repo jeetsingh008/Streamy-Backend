@@ -1,10 +1,15 @@
 import dotenv from "dotenv";
+dotenv.config({ path: "./.env" });
+
 import connectDB from "./db/index.js";
 import app from "./app.js";
 
-dotenv.config({
-  path: "./.env",
-});
+console.log(
+  "ENV check:",
+  process.env.CLOUDINARY_CLOUD_NAME,
+  process.env.CLOUDINARY_API_KEY,
+  process.env.CLOUDINARY_API_SECRET
+);
 
 connectDB()
   .then(() => {
